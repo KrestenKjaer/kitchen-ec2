@@ -12,7 +12,7 @@ module Kitchen
           end
 
           def username
-            "root"
+            "ec2-user"
           end
 
           def image_search
