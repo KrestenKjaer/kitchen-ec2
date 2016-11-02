@@ -150,6 +150,11 @@ describe "Default images for various platforms" do
       { :name => "architecture", :values => %w[x86_64] }
     ],
 
+    "suse" => [
+      { :name => "owner-id", :values => %w[056126556840] },
+      { :name => "name", :values => %w[openSUSE-*] }
+    ],
+ 
     "fedora" => [
       { :name => "owner-id", :values => %w[125523088429] },
       { :name => "name", :values => %w[Fedora-Cloud-Base-*] }

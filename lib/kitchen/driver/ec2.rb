@@ -30,6 +30,7 @@ require_relative "aws/standard_platform/fedora"
 require_relative "aws/standard_platform/freebsd"
 require_relative "aws/standard_platform/ubuntu"
 require_relative "aws/standard_platform/windows"
+require_relative "aws/standard_platform/suse"
 require "aws-sdk-core/waiters/errors"
 require "retryable"
 
